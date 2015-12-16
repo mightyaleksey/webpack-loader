@@ -1,7 +1,7 @@
 {
   "name": "webpack-loader",
   "version": "1.0.0",
-  "description": "Simple example to test a loader",
+  "description": "Simple example of testing a loader",
   "main": "index.js",
   "directories": {
     "test": "test"
