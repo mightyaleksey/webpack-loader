@@ -1,0 +1,32 @@
+{
+  "name": "webpack-loader",
+  "version": "1.0.0",
+  "description": "Simple example to test a loader",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "memory-fs": "^0.3.0",
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "scripts": {
+    "test": "mocha --ui tdd test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sullenor/webpack-loader.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Alexey Litvinov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sullenor/webpack-loader/issues"
+  },
+  "homepage": "https://github.com/sullenor/webpack-loader#readme"
+}
