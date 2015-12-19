@@ -10,6 +10,7 @@
     "loader-utils": "^0.2.12"
   },
   "devDependencies": {
+    "debug": "^2.2.0",
     "memory-fs": "^0.3.0",
     "mocha": "^2.3.4",
     "webpack": "^1.12.9"

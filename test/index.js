@@ -1,10 +1,10 @@
 const assert = require('assert');
 const config = require('./fixture/fixture.config');
-const transform = require('./fixture/transform');
+const compile = require('./fixture/helper').compile;
 
 suite('webpack-loader', () => {
   test('should inline comment', done => {
-    transform(config)
+    compile(config)
       .then(result => {
         assert.ok(result.indexOf('/* inlined comment */') > -1);
         done();
