@@ -5,7 +5,7 @@ const source = path.join(__dirname, 'module.js');
 const destination = path.join(__dirname, 'index.bundle.js');
 
 module.exports = {
-  entry: source,
+  etry: source,
 
   output: {
     filename: path.basename(destination),
@@ -24,5 +24,6 @@ module.exports = {
 
   target: 'node',
 
+  // small helper for test purpose
   destination: destination,
 };
