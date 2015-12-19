@@ -4,8 +4,7 @@
   "description": "Simple example of testing a loader",
   "main": "index.js",
   "directories": {
-    "test": "test",
-    "test:debug": "DEBUG=loader test"
+    "test": "test"
   },
   "dependencies": {
     "loader-utils": "^0.2.12"
@@ -17,7 +16,8 @@
     "webpack": "^1.12.9"
   },
   "scripts": {
-    "test": "mocha --ui tdd test/"
+    "test": "mocha --ui tdd test/",
+    "test:debug": "DEBUG=loader npm test"
   },
   "repository": {
     "type": "git",
