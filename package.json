@@ -4,7 +4,8 @@
   "description": "Simple example of testing a loader",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "test",
+    "test:debug": "DEBUG=loader test"
   },
   "dependencies": {
     "loader-utils": "^0.2.12"
